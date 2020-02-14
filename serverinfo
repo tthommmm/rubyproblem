@@ -12,3 +12,11 @@ Puma starting in single mode...
 * Listening on tcp://[::1]:3000
 * Listening on tcp://127.0.0.1:3000
 Use Ctrl-C to stop
+
+Started GET "/" for ::1 at 2020-02-13 20:10:54 -0500
+   (14.8ms)  SELECT sqlite_version(*)
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby/lib/ruby/gems/2.6.0/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby/lib/ruby/gems/2.6.0/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 66.6ms | Allocations: 416)
+Completed 200 OK in 163ms (Views: 116.9ms | ActiveRecord: 0.0ms | Allocations: 2332)
+
